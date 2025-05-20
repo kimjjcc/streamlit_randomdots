@@ -11,7 +11,7 @@ st.title("처리의 랜덤 도트 PDF 생성기 (ZIP)")
 num_dots = st.number_input("점 개수", min_value=5, max_value=100, value=30)
 min_dist = st.number_input("점 간 최소 거리(인치)", min_value=0.1, max_value=3.0, value=1.5, step=0.1)
 margin = st.number_input("가장자리 여백(인치)", min_value=0.1, max_value=3.0, value=0.5, step=0.1)
-num_pdfs = st.number_input("PDF 개수", min_value=1, max_value=20, value=10)
+num_pdfs = st.number_input("PDF 개수 (최대 10개)", min_value=1, max_value=10, value=10)
 
 a4_width, a4_height = 8.27, 11.69
 

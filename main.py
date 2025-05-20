@@ -5,7 +5,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import io
 import zipfile
 
-st.title("처리의 랜덤 도트 PDF 생성기 (ZIP 압축)")
+st.title("처리의 랜덤 도트 PDF 생성기 (ZIP)")
 
 # 사용자 입력 파라미터
 num_dots = st.number_input("점 개수", min_value=5, max_value=100, value=30)
